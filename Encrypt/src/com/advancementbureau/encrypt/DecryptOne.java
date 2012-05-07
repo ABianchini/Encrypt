@@ -25,7 +25,7 @@ public class DecryptOne {
 					outChar = ' ';
 					spaceCount++;
 				} else {
-					outChar = (char) (inChar - 1);
+					outChar = (char) (inChar - 3);
 				}
 				outLinePieces[i] = outChar;
 			}
